@@ -1,2 +1,6 @@
-require './myapp'
-run Sinatra::Application
+$:.unshift File.expand_path("../", __FILE__)
+require 'sinatra'
+
+map '/' do
+  run Application
+end
