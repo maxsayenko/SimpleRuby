@@ -3,5 +3,5 @@ require 'rubygems'
 require 'sinatra'
 
 get '/' do
-  'Hello world! Boo'
+  'Hello world! Boom'
 end
